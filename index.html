@@ -1,14 +1,222 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+        
+        <!-- build:css css/main.css -->
 
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"/>
+        
+        <!--BOOTSTRAP SOCIAL-->
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
+
+        <!--CSS STYLESHEET-->
+        <link rel="stylesheet" href="css/styles.css" />
+    
+        <!-- endbuild -->
+
+        <!--GOOGLE FONT-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+        
+
+        <title>DHS : death by design</title>
     </head>
 
     <body>
 
+        <!--SOCIAL BAR-->
+        <header class="jumbotron jumbotron-fluid social-bar p-1 p-md-2 mt-0" id="pageStart">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10 col-sm-8 col-md-6 mx-auto p-0">
+                        <!--SOCIAL LINKS-->
+                        <div class="row justify-content-center pt-0 pb-4 pb-md-5 pb-xl-6">
+                            <a class="col" href='https://www.behance.net/DeadHead'><img src="assets/social/behance.svg" /></a>
+                            <a class="col" href='https://www.facebook.com/undead.gems/'><img src="assets/social/facebook.svg"/></a>
+                            <a class="col" href='https://www.instagram.com/bone.head.designer/'><img src="assets/social/instagram.svg"/></a>
+                            <a class="col" href='https://www.linkedin.com/in/deadheaddesign/'><img src="assets/social/linkedin.svg"/></a>
+                            <a class="col" href='https://www.youtube.com/channel/UCzLJQTYgUrhEFAOxt2ek0lg?'><img src="assets/social/ytube.svg"/></a>
+                            <a class="col" href='https://www.upwork.com/freelancers/~019888456e37ad31ca?viewMode=1'><img src="assets/social/upwork.svg"/></a>
+                            <a class="col" href='https://dribbble.com/deadheaddesign'><img src="assets/social/dribbble.svg"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+                <!--HERO CAROUSEL JUMBOTRON HOLDER-->
+        <div class="jumbotron jumbotron-fluid py-0 my-0">
+    
+
+            <!--START OF CAROUSEL-->
+            <div id="heroCarousel" class="carousel carousel-fade ml-auto" data-ride="carousel" data-interval="8000">
+                
+                <!--CAROUSEL INDICATORS
+                <ol class="carousel-indicators mainIndicators">
+                    <li data-target="#heroCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#heroCarousel" data-slide-to="1"></li>
+                    <li data-target="#heroCarousel" data-slide-to="2"></li>
+                    <li data-target="#heroCarousel" data-slide-to="3"></li>
+                    <li data-target="#heroCarousel" data-slide-to="4"></li>
+                    <li data-target="#heroCarousel" data-slide-to="5"></li>
+                    <li data-target="#heroCarousel" data-slide-to="6"></li>
+                </ol>
+                -->
+
+                <!--CAROUSEL INNER-->
+                <div class="carousel-inner">
+
+                    <!--SLIDE ONE-->
+                    <div class="carousel-item active">
+                        <video src="assets/homeCarousel/dhsIntro.mp4" class="d-block w-100 " autoplay="" loop="" muted="" alt="SlideOne"></video>
+
+                    </div>
+
+                    <!--SLIDE TWO-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/coding.mp4" class="d-block w-100 " autoplay="" loop="" muted="" alt="SlideOne"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">Front End Web Development</h1>
+                            <p class="d-none d-sm-block text-white">
+                                HTML, BOOTSTRAP, JQUERY, REACT
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!--SLIDE THREE-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/prototyping.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">Web Site Prototyping</h1>
+                            <p class="d-none d-sm-block text-white">
+                                ADOBE XD, PHOTOSHOP, ILLUSTRATOR
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!--SLIDE FOUR-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/design layout.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">Web Site Concept Design</h1>
+                            <p class="d-none d-sm-block text-white">
+                                Get Creative With Your Possibilities!
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!--SLIDE FIVE-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/logoDesign.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">Logo Design & Branding</h1>
+                            <p class="d-none d-sm-block text-white">
+                                Let Your Brand Speak For Itself
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                    <!--SLIDE SIX-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/animation.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">2D & 3D Animation</h1>
+                            <p class="d-none d-sm-block text-white">
+                                Adobe Animate, 3ds Max, Blender
+                            </p>
+                        
+                        </div>
+                    </div>
+
+                    <!--SLIDE SEVEN-->
+                    <div class="carousel-item">
+                        <video src="assets/homeCarousel/animation.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
+                        <div class="carousel-caption mb-5">
+                            
+                            <h1 class="carousel-header">Vibrant Motion Graphics</h1>
+                            <p class="d-none d-sm-block text-white">
+                                HTML, BOOTSTRAP, JQUERy, REACT
+                            </p>
+                            
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--CAROUSEL CONTROLS-->
+                <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+                    
+        </div>
+
+        <!--NAVBARMAIN HOLDER-->
+        <div class="jumbotron jumbotron-fluid   nav-bar py-sm-2 py-md-0">
+            <nav class="navbar navbar-expand-sm navbar-dark sticky-top py-lg-2 py-xl-5">
+
+                <div class="container">
+    
+                    <!--NAVBARMAIN DISPLAY TOGGLE BUTTON-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <!--NAVBARMAIN ELEMENTS-->
+                    <div class="collapse navbar-collapse" id="navbarMain">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active align-self-center navbarMainLink tex-center"><a class="nav-link" href="#pageStart"><h1>feature</h1></a></li>
+                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#about"><h1>about</h1></a></li>
+                            <li class="nav-item">
+                                <div class="logoHolder">
+                                    <img class="img-fluid logo" src="assets/siteElements/dhLogo.svg"/>
+                                </div>
+                            </li>
+                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#folio"><h1>Folio</h1></a></li>
+                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#contact"><h1>contact</h1></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+
     </body>
 
     <footer>
-        
+
     </footer>
+
+    <!--JQuery must come first, then popper.js, then bootstrap JavaScript plugin-->
+
+    <!--build:js js/main.js-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script><!--for pop ups tooltips and dropdowns-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/scripts.js"></script>
+    <!--endbuild-->
 </html>
