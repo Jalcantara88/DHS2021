@@ -26,7 +26,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
-        
+        <!--<audio src="assets/audio/DheadlogoIntro.mp3" autoplay=""></audio>-->
+
 
         <title>DHS : death by design</title>
     </head>
@@ -58,7 +59,7 @@
     
 
             <!--START OF CAROUSEL-->
-            <div id="heroCarousel" class="carousel carousel-fade ml-auto" data-ride="carousel" data-interval="8000">
+            <div id="heroCarousel" class="carousel carousel-fade ml-auto" data-pause="off" data-ride="carousel" data-interval="8000">
                 
                 <!--CAROUSEL INDICATORS
                 <ol class="carousel-indicators mainIndicators">
@@ -77,14 +78,14 @@
 
                     <!--SLIDE ONE-->
                     <div class="carousel-item active">
-                        <video src="assets/homeCarousel/dhsIntro.mp4" class="d-block w-100 " autoplay="" loop="" muted="" alt="SlideOne"></video>
+                        <video src="assets/homeCarousel/dhsIntro.mp4" class="d-block w-100 " autoplay="" alt="SlideOne"></video>
 
                     </div>
 
                     <!--SLIDE TWO-->
                     <div class="carousel-item">
-                        <video src="assets/homeCarousel/coding.mp4" class="d-block w-100 " autoplay="" loop="" muted="" alt="SlideOne"></video>
-                        <div class="carousel-caption mb-5">
+                        <video src="assets/homeCarousel/coding.mp4" class="d-block w-100 " autoplay="" alt="SlideOne"></video>
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">Front End Web Development</h1>
                             <p class="d-none d-sm-block text-white">
@@ -97,7 +98,7 @@
                     <!--SLIDE THREE-->
                     <div class="carousel-item">
                         <video src="assets/homeCarousel/prototyping.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">Web Site Prototyping</h1>
                             <p class="d-none d-sm-block text-white">
@@ -110,7 +111,7 @@
                     <!--SLIDE FOUR-->
                     <div class="carousel-item">
                         <video src="assets/homeCarousel/design layout.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">Web Site Concept Design</h1>
                             <p class="d-none d-sm-block text-white">
@@ -123,7 +124,7 @@
                     <!--SLIDE FIVE-->
                     <div class="carousel-item">
                         <video src="assets/homeCarousel/logoDesign.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">Logo Design & Branding</h1>
                             <p class="d-none d-sm-block text-white">
@@ -136,7 +137,7 @@
                     <!--SLIDE SIX-->
                     <div class="carousel-item">
                         <video src="assets/homeCarousel/animation.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">2D & 3D Animation</h1>
                             <p class="d-none d-sm-block text-white">
@@ -149,7 +150,7 @@
                     <!--SLIDE SEVEN-->
                     <div class="carousel-item">
                         <video src="assets/homeCarousel/animation.mp4" class="d-block w-100" autoplay="" loop="" muted="" alt="SlideThree"></video>
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption mb-3 mb-lg-5">
                             
                             <h1 class="carousel-header">Vibrant Motion Graphics</h1>
                             <p class="d-none d-sm-block text-white">
@@ -189,27 +190,140 @@
                     <!--NAVBARMAIN ELEMENTS-->
                     <div class="collapse navbar-collapse" id="navbarMain">
                         <ul class="navbar-nav mx-auto">
-                            <li class="nav-item active align-self-center navbarMainLink tex-center"><a class="nav-link" href="#pageStart"><h1>feature</h1></a></li>
-                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#about"><h1>about</h1></a></li>
-                            <li class="nav-item">
+                            <li class="nav-item active align-self-center tex-center"><a class="nav-link" href="#vids"><h1>vids</h1></a></li>
+                            <li class="align-self-center text-white tex-center"><h1>|</h1></li>
+                            <li class="nav-item align-self-center text-center"><a class="nav-link" href="#about"><h1>store</h1></a></li>
+                            <li class="nav-item ">
                                 <div class="logoHolder">
-                                    <img class="img-fluid logo" src="assets/siteElements/dhLogo.svg"/>
+                                    <a href="#pageStart">
+                                        <img class="img-fluid logo" src="assets/siteElements/dhLogo.svg"/>
+                                    </a>
+                                    
                                 </div>
                             </li>
-                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#folio"><h1>Folio</h1></a></li>
-                            <li class="nav-item align-self-center navbarMainLink text-center"><a class="nav-link" href="#contact"><h1>contact</h1></a></li>
+                            <li class="nav-item align-self-center text-center"><a class="nav-link" href="#free"><h1>free</h1></a></li>
+                            <li class="align-self-center text-white tex-center"><h1>|</h1></li>
+                            <li class="nav-item align-self-center text-center"><a class="nav-link" href="#arts"><h1>arts</h1></a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </div>
         
+        <!--VIDEOS SECTION-->
+        <div class="container-fluid bg-videos" id="vids">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-xl-8">
+                    <div class="card">
+                        <div class="card-header bg-info">
+                            <h1 class="text-white text-center">LATEST VIDEOS</h1>
+                        </div>
+                        <div class="card-body p-0">
+        
+                            <div class="video-wrapper">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLESn3HyZ2-Dh5eREktp1QEqUffKglQh0O" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+                            </div>
+        
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--PRODUCTS SECTION-->
+        <div class="container-fluid mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-10 col-xl-8">
+                    <div class="text-center ">
+                        <h1 class="rounded-top bg-info text-white mb-0 py-2">DEAD HEAD STORE</h1>
+                    </div>
+        
+                    <div class="row justify-content-center bg-lightgrey m-0 py-2 rounded-bottom">
+                        <div class="col-2 col-md-2 align-self-center">
+                            <!--Shopping Bag-->
+                            <div class="ec-cart-widget"></div>
+                            <div>
+                                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?42697211&data_platform=code&data_date=2020-12-10" charset="utf-8"></script>
+                                <script type="text/javascript">Ecwid.init();</script>
+                            </div>
+                        </div>
+        
+                        <div class="col-8 col-md-4 align-self-center">
+                            <!--Search-->
+                            <div id="my-search-42697211"></div>
+                            <div>
+                                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?42697211&data_platform=code&data_date=2020-12-10" charset="utf-8"></script>
+                                <script type="text/javascript"> xSearch("id=my-search-42697211"); </script>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Storefront-->
+                    <div class="store">
+                        <div id="my-store-42697211"></div>
+                        <div>
+                            <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?42697211&data_platform=code&data_date=2020-12-10" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-42697211");</script>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>      
+                
+            
+        </div>
+        
+        <div class="footer-holder">
+            <div class="footer-overflow">
+                <video class="w-100 footer-video" src="assets/footerVid/footerVid0.mp4"  autoplay="" loop="" muted=""></video>
+    
+            </div>
+            <div class="container-fluid footer-logo">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 col-xl-4">
+                        <img class="img-fluid" src="assets/siteElements/SVG/footerLogo.svg"/>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+            
+            
+        
+
+        
+        <footer class="jumbotron jumbotron-fluid footer-bar pb-1 px-0 mb-0 mx-0 mt-0 w-100">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-10 col-sm-8 col-md-6 mx-auto ">
+                        <!--SOCIAL LINKS-->
+                        <div class="text-white text-center">
+                            copyright &copy; 2012 - 2021 DeadHead Studios
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+
+        
+       
+            
+
 
     </body>
 
-    <footer>
+    
 
-    </footer>
+    
+        
+
+    
 
     <!--JQuery must come first, then popper.js, then bootstrap JavaScript plugin-->
 
@@ -218,5 +332,6 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script><!--for pop ups tooltips and dropdowns-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/js/scripts.js"></script>
+    
     <!--endbuild-->
 </html>
