@@ -1,10 +1,20 @@
+
+
+
 $(function() {
-    window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("audio");
-        audio.volume = 0.2;
-        audio.play();
-      });
 
-
+    /*
+    var video = document.getElementsByClassName("video");
+    
+    
+    for(var i = 0; i < video.length; i++)
+    {
       
+      console.log(video[i]);
+      video[i].volume = 0.2;
+      video[i].play();
+    }
+    */
+    
+
 });

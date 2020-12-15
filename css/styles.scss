@@ -84,11 +84,36 @@
         margin-bottom: 6%;
       }
       @media only screen and (min-width: 1400px) {
-        margin-top: -19%;
-        margin-bottom: 6%;
+        margin-top: -16%;
+        margin-bottom: 3%;
       }
       
     
+}
+
+.bg-black {
+    background-image: linear-gradient(to top, black, lightslategrey)
+}
+
+.bg-blue {
+    background-image: linear-gradient(to top, darkslateblue,dodgerblue);
+}
+
+.bg-gold {
+    background-image: linear-gradient(to top, orangered, gold);
+}
+
+.bg-pink {
+    background-image: linear-gradient(to top, purple, salmon);
+}
+
+.bg-store {
+    background-image: linear-gradient(to right, pink, lightblue);
+}
+
+.store {
+    border: 1px solid lightgrey;
+    background-color: white;
 }
 
 html,body
