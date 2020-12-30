@@ -1,12 +1,38 @@
 .social-bar {
-    background-image: url("../../assets/siteElements/SVG/socialBar2.svg");
+    background: url("../../assets/siteElements/SVG/socialBar_1.svg") repeat 0 0;
     background-color: transparent;
-    margin-bottom: -40px;
-    position: relative;
-    z-index: 10;
+    margin-bottom: -30px;
+    left: 0;
+    overflow-x: hidden;
+    
     background-size: cover;
-    background-position: center;
-}    
+    background-position: left;
+    
+    -webkit-animation: bk 20s -5s linear infinite alternate-reverse;
+    animation: bk 20s -5s linear infinite alternate-reverse;
+    animation-timing-function: ease-in-out;
+    background-clip: border-box;
+    transform: translateZ(0);
+    
+}   
+
+.behind {
+    position: relative;
+    z-index: -10;
+    
+}
+
+@-webkit-keyframes bk {
+    100% {
+        background-position: right;
+    }
+  }
+  @keyframes bk {
+    100% {
+        background-position: right;
+    }
+  }
+
 .nav-bar {
     background-image: url("../../assets/siteElements/SVG/navBar.svg");
     background-color: transparent;
@@ -31,9 +57,16 @@
     background-image: url('../../assets/siteElements/SVG/footerBar.svg');
     position: relative;
     z-index: 10;
-    background-position: center;
+    border: -2px;
+    background-position: left;
     background-size: cover;
     background-color: transparent;
+    background-origin: border-box;
+    -webkit-animation: bk 20s -5s linear infinite alternate;
+    animation: bk 20s -5s linear infinite  alternate;
+    animation-timing-function: ease-in-out;
+    background-clip: border-box;
+    transform: translateZ(0);
     
 }
 
@@ -44,7 +77,7 @@
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%;
-    /*16:9 */@at-root;
+    /*16:9 */
     height: 0;
 }
 
@@ -91,8 +124,12 @@
     
 }
 
+.bg-free {
+    background-image: linear-gradient(to bottom, lightslategray, darkslateblue);
+}
+
 .bg-black {
-    background-image: linear-gradient(to top, black, lightslategrey)
+    background-image: linear-gradient(to top, black, lightslategrey);
 }
 
 .bg-blue {

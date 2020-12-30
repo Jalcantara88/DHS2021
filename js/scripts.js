@@ -3,6 +3,7 @@
 
 $(function() {
 
+ 
     /*
     var video = document.getElementsByClassName("video");
     
